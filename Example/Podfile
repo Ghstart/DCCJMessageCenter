@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DCCJMessageCenter_Example' do
+  pod 'DCCJMessageCenter', :path => '../'
+
+  target 'DCCJMessageCenter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
