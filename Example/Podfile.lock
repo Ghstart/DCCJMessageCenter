@@ -1,0 +1,23 @@
+PODS:
+  - DCCJMessageCenter (0.1.0):
+    - DCCJNetwork (~> 0.2.8)
+  - DCCJNetwork (0.2.8)
+
+DEPENDENCIES:
+  - DCCJMessageCenter (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DCCJNetwork
+
+EXTERNAL SOURCES:
+  DCCJMessageCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DCCJMessageCenter: ac80e290a602aee677d5babe800037b7cab927ec
+  DCCJNetwork: 187f71aecb84c5ae1705cf6b55754302bb834cfc
+
+PODFILE CHECKSUM: 7631f935465f734415e3d2ab5302f82146176095
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module DCCJMessageCenter {
+  umbrella header "DCCJMessageCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}
