@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJMessageCenter'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A module mainly to handle message send and verify'
 
 # This description is used to generate tags and improve search results.

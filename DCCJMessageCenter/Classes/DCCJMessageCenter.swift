@@ -8,7 +8,7 @@
 import Foundation
 import DCCJNetwork
 
-enum MessageBusinessType: Int {
+public enum MessageBusinessType: Int {
     case login
     case regist
     case thirdBind
@@ -16,7 +16,7 @@ enum MessageBusinessType: Int {
     case payPassWord
 }
 
-enum MessageCenterRequest {
+public enum MessageCenterRequest {
     case sendMessage(type: MessageBusinessType, phone: String)
     case verifyMessage(type: MessageBusinessType, phone: String, code: String)
 }
@@ -26,7 +26,7 @@ extension MessageCenterRequest: Request {
         return DCCJNetwork.shared.hostMaps[.production]!
     }
     
-    var path: String {
+    public var path: String {
         switch self {
         case .sendMessage(let type, _), .verifyMessage(let type, _, _):
             switch type {
@@ -44,11 +44,11 @@ extension MessageCenterRequest: Request {
         }
     }
     
-    var method: HTTPMethod {
+    public var method: HTTPMethod {
         return .POST
     }
     
-    var paramters: [String : Any] {
+    public var paramters: [String : Any] {
         switch self {
         case .sendMessage(let type, let phone):
             return ["phoneNumber": phone, "type": type.rawValue]
@@ -58,11 +58,17 @@ extension MessageCenterRequest: Request {
     }
 }
 
-class DCCJMessageCenter {
-    func send() {
-        let q = MessageCenterRequest.sendMessage(type: .login, phone: "110")
-        DCCJNetwork.shared.requestBy(q) { (result: Result<MessageCenterResponse, DataManagerError>) in
-   
+public class DCCJMessageCenter {
+    public init() {}
+    
+    public func send(r: MessageCenterRequest, callBack: @escaping (MessageCenterResponse?, Error?) -> Void) {
+        DCCJNetwork.shared.requestBy(r) { (result: Result<MessageCenterResponse, DataManagerError>) in
+            switch result {
+            case .success(let data):
+                callBack(data, nil)
+            case .failure(let e):
+                callBack(nil, e)
+            }
         }
     }
 }

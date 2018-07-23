@@ -1,5 +1,5 @@
 PODS:
-  - DCCJMessageCenter (0.1.0):
+  - DCCJMessageCenter (0.1.2):
     - DCCJNetwork (~> 0.2.8)
   - DCCJNetwork (0.2.8)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJMessageCenter: ac80e290a602aee677d5babe800037b7cab927ec
+  DCCJMessageCenter: 108ac43fd1af442d0cff599cc24e8566d2359b8e
   DCCJNetwork: 187f71aecb84c5ae1705cf6b55754302bb834cfc
 
 PODFILE CHECKSUM: 7631f935465f734415e3d2ab5302f82146176095

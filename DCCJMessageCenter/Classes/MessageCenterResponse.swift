@@ -7,6 +7,6 @@
 
 import Foundation
 
-class MessageCenterResponse: Codable {
+public struct MessageCenterResponse: Codable {
     
 }
