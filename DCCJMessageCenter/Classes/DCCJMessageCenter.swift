@@ -28,19 +28,10 @@ extension MessageCenterRequest: Request {
     
     public var path: String {
         switch self {
-        case .sendMessage(let type, _), .verifyMessage(let type, _, _):
-            switch type {
-            case .login:
-                return ""
-            case .regist:
-                return ""
-            case .thirdBind:
-                return ""
-            case .loginPassWord:
-                return ""
-            case .payPassWord:
-                return ""
-            }
+        case .sendMessage:
+            return "api/app/User/verifyCode"
+        case .verifyMessage:
+            return "api/app/User/checkCode"
         }
     }
     
@@ -59,6 +50,7 @@ extension MessageCenterRequest: Request {
 }
 
 public class DCCJMessageCenter {
+    
     public init() {}
     
     public func send(r: MessageCenterRequest, callBack: @escaping (MessageCenterResponse?, Error?) -> Void) {
