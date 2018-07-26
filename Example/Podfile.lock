@@ -1,7 +1,7 @@
 PODS:
-  - DCCJMessageCenter (0.1.5):
-    - DCCJNetwork (~> 0.3.0)
-  - DCCJNetwork (0.3.0)
+  - DCCJMessageCenter (0.1.6):
+    - DCCJNetwork (~> 0.3.1)
+  - DCCJNetwork (0.3.1)
 
 DEPENDENCIES:
   - DCCJMessageCenter (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJMessageCenter: b2ee26f56256e264508b4b047282c65e0b07c259
-  DCCJNetwork: ed3fe3b16218b210e3cde08e76b45a369c28fd89
+  DCCJMessageCenter: 1ef9cf7b239dbae966e6629b1cf6ba6362cd3408
+  DCCJNetwork: 052b903304cf684aba5ddfcedbaa6f05cfde3780
 
 PODFILE CHECKSUM: 7631f935465f734415e3d2ab5302f82146176095
 
