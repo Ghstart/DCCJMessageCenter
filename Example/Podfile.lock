@@ -1,13 +1,16 @@
 PODS:
+  - DCCJConfig (0.1.0)
   - DCCJMessageCenter (0.1.6):
-    - DCCJNetwork (~> 0.3.1)
-  - DCCJNetwork (0.3.1)
+    - DCCJNetwork (~> 0.3.3)
+  - DCCJNetwork (0.3.3):
+    - DCCJConfig (~> 0.1.0)
 
 DEPENDENCIES:
   - DCCJMessageCenter (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DCCJConfig
     - DCCJNetwork
 
 EXTERNAL SOURCES:
@@ -15,8 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJMessageCenter: 1ef9cf7b239dbae966e6629b1cf6ba6362cd3408
-  DCCJNetwork: 052b903304cf684aba5ddfcedbaa6f05cfde3780
+  DCCJConfig: f5406d0f7142f052fab836b329e2e147489999d2
+  DCCJMessageCenter: 17406cc60bf20960683625e44b3a63ed6535b3e2
+  DCCJNetwork: 91f06c17d090098f32b6339797f4d67138768b0e
 
 PODFILE CHECKSUM: 7631f935465f734415e3d2ab5302f82146176095
 

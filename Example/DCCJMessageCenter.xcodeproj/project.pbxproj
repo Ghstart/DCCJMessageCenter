@@ -288,11 +288,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DCCJMessageCenter_Example/Pods-DCCJMessageCenter_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DCCJConfig/DCCJConfig.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJMessageCenter/DCCJMessageCenter.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJNetwork/DCCJNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJConfig.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJMessageCenter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJNetwork.framework",
 			);

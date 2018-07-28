@@ -8,6 +8,7 @@
 
 import UIKit
 import DCCJMessageCenter
+import DCCJConfig
 
 class ViewController: UIViewController {
 
@@ -15,12 +16,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // 1.
-        DCCJMessageCenter().send(r: .sendMessage(type: .login, phone: "120")) { (data, e) in
-            
+        let _ = DCCJMessageCenter().send(.sendMessage(type: .login, phone: "120")) { (result: Result<MessageCenterResponse, NSError>) in
+            switch result {
+            case .success(let value):
+                print(value)
+            case .failure(let e):
+                print(e)
+            }
         }
         
         // 2.
-        DCCJMessageCenter().send(r: .verifyMessage(type: .thirdBind, phone: "110", code: "8899")) { (data, e) in
+        let _ = DCCJMessageCenter().send(.verifyMessage(type: .thirdBind, phone: "110", code: "8899")) { (result: Result<MessageCenterResponse, NSError>) in
             
         }
     }

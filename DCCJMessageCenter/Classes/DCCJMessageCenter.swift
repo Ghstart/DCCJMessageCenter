@@ -7,6 +7,7 @@
 
 import Foundation
 import DCCJNetwork
+import DCCJConfig
 
 public enum MessageBusinessType: Int {
     case login
@@ -53,14 +54,14 @@ public class DCCJMessageCenter {
     
     public init() {}
     
-    public func send(r: MessageCenterRequest, callBack: @escaping (MessageCenterResponse?, Error?) -> Void) {
-        DCCJNetwork.shared.requestBy(r) { (result: Result<MessageCenterResponse, DataManagerError>) in
+    public func send(_ r: MessageCenterRequest, handler: @escaping (Result<MessageCenterResponse, NSError>) -> Void) -> URLSessionDataTask? {
+        return DCCJNetwork.shared.requestBy(r, completion: { (result: Result<MessageCenterResponse, DataManagerError>) -> Void in
             switch result {
-            case .success(let data):
-                callBack(data, nil)
-            case .failure(let e):
-                callBack(nil, e)
+            case .success(let v):
+                handler(Result.success(v))
+            case .failure(let e as NSError):
+                handler(Result.failure(e))
             }
-        }
+        })
     }
 }
