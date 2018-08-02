@@ -54,14 +54,11 @@ public class DCCJMessageCenter {
     
     public init() {}
     
-    public func send(_ r: MessageCenterRequest, handler: @escaping (Result<MessageCenterResponse, NSError>) -> Void) -> URLSessionDataTask? {
-        return DCCJNetwork.shared.requestBy(r, completion: { (result: Result<MessageCenterResponse, DataManagerError>) -> Void in
-            switch result {
-            case .success(let v):
-                handler(Result.success(v))
-            case .failure(let e as NSError):
-                handler(Result.failure(e))
-            }
-        })
+    public func send(with r: MessageCenterRequest) -> (data: Future<MessageCenterResponse>, task: URLSessionDataTask?) {
+        let (d, t) = DCCJNetwork.shared.request(with: r)
+        
+        let unboxdata: Future<MessageCenterResponse> = d.unboxed()
+        
+        return (data: unboxdata, task: t)
     }
 }

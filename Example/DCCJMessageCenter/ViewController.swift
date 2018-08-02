@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // 1.
-        let _ = DCCJMessageCenter().send(.sendMessage(type: .login, phone: "120")) { (result: Result<MessageCenterResponse, NSError>) in
+        DCCJMessageCenter().send(with: .sendMessage(type: .login, phone: "120")).data.observe { (result: Result<MessageCenterResponse>) in
             switch result {
             case .success(let value):
                 print(value)
@@ -24,11 +24,18 @@ class ViewController: UIViewController {
                 print(e)
             }
         }
+    
         
         // 2.
-        let _ = DCCJMessageCenter().send(.verifyMessage(type: .thirdBind, phone: "110", code: "8899")) { (result: Result<MessageCenterResponse, NSError>) in
-            
+        DCCJMessageCenter().send(with: .verifyMessage(type: .thirdBind, phone: "110", code: "8899")).data.observe { (result: Result<MessageCenterResponse>) in
+            switch result {
+            case .success(let value):
+                print(value)
+            case .failure(let e):
+                print(e)
+            }
         }
+
     }
 
     override func didReceiveMemoryWarning() {
