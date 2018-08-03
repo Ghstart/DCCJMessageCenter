@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		04DA134C96210E5894972DADCF1DA971 /* DCCJMessageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82683D09B3298EB838F6E40B1BAC31E /* DCCJMessageCenter.swift */; };
-		180DE675D31366CFC6662F1FFF2B899F /* DCCJConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C58EC88E9523653836968C85DE72B9 /* DCCJConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180DE675D31366CFC6662F1FFF2B899F /* DCCJConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF27B23D1CEC8288DA8873BDD955CC09 /* DCCJConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1889B81769461DBBFAC9A7BAA2989047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EB4E8DF319CA04BB6DB7916EE14BE1 /* Foundation.framework */; };
-		1C47C7043539B458EEE44F08E5139975 /* DCCJConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A925A05DA0C131FD15817042DDAA4FF8 /* DCCJConfig-dummy.m */; };
+		1C47C7043539B458EEE44F08E5139975 /* DCCJConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF09D77EDAB30E2C9C6AB26A8FC10E /* DCCJConfig-dummy.m */; };
 		2F98A72A5AD0E98AD373C8B2C4E5D856 /* MessageCenterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6838199A2F48F09B6D120569C7F590C /* MessageCenterResponse.swift */; };
 		39E0ED6AEAFBCDD45F9446C0C8C4F15B /* DCCJMessageCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8AD1175DBF0052EA2737E154B890D1 /* DCCJMessageCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		443A3CF42419CB898298385F4AC7C4C5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905630AE5BC6E80441A6871FD84B5F05 /* Result.swift */; };
-		522C0D2AE30CC6F1084DAF94EA8636EF /* DCCJNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E59F6E6B614B357144BA63B7DE68BF5D /* DCCJNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		443A3CF42419CB898298385F4AC7C4C5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25590D83DB93D470A82F57FE56980E8 /* Result.swift */; };
+		522C0D2AE30CC6F1084DAF94EA8636EF /* DCCJNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B9DFFC0B6B967E94A6277112D1510B /* DCCJNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B5A999E9559AD17822A89C5E2576B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EB4E8DF319CA04BB6DB7916EE14BE1 /* Foundation.framework */; };
-		62EDA2BCAB70485E44BAA839EDB66CCC /* DCCJNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D956E5439B529FD7DB8A9F396F51F3D6 /* DCCJNetwork-dummy.m */; };
+		62EDA2BCAB70485E44BAA839EDB66CCC /* DCCJNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2234F9B7CB1D823BE6FF534B84AB79AF /* DCCJNetwork-dummy.m */; };
 		79112FDD7CC986A409CBEC2AF9A5D5F5 /* Pods-DCCJMessageCenter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 983AA1C4CE848E6988FF3B80DDE52141 /* Pods-DCCJMessageCenter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86CB9DC2B8D55EB24F990BAB1D2F1F48 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1665985FEB45A2017676D37F97264BF /* DCCJConfig.framework */; };
-		900A901EB9AD92E5AB60ECFAAFB53CF6 /* DCCJNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F1C57B2330439373C9DA06A90DF47 /* DCCJNetwork.swift */; };
+		900A901EB9AD92E5AB60ECFAAFB53CF6 /* DCCJNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917E421A571BFF923CF7240679972A3 /* DCCJNetwork.swift */; };
 		92BAC8FC3BD072D190572E056A2F5552 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1665985FEB45A2017676D37F97264BF /* DCCJConfig.framework */; };
 		9764D91A8199D467678BD2FF3CB8A2D6 /* Pods-DCCJMessageCenter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C5F29A1AC9AD59A79C12FBA0C4A9BD /* Pods-DCCJMessageCenter_Tests-dummy.m */; };
 		AB7E715125D96592F52CB1BB56021644 /* Pods-DCCJMessageCenter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD712843A549D3E7FB4B11B367F61721 /* Pods-DCCJMessageCenter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC75C9472E345EB2CF79E7FAEC75007D /* Pods-DCCJMessageCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AB2BF8B4D6459921A20F6A33C23469 /* Pods-DCCJMessageCenter_Example-dummy.m */; };
-		AD6A57EA70E47D3C5B341FB5AF167AC4 /* DataManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F48B874FC51ECE9CDB5DF95559E049 /* DataManagerError.swift */; };
+		AD6A57EA70E47D3C5B341FB5AF167AC4 /* DataManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541BCA3C1840C54D8DF01BE9C4AE0D4C /* DataManagerError.swift */; };
 		B06CA8FBEE832F2BEA382ADF2BB04F14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EB4E8DF319CA04BB6DB7916EE14BE1 /* Foundation.framework */; };
 		BAA6EC6FD1F008684A3CE25A6BF158D0 /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F4E9EAFF8D2D5B15C4F0D68F3309EB /* DCCJNetwork.framework */; };
 		D20295DA18B48CCE10DF40AA9F43FEBD /* DCCJMessageCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F524A1084E9830FE75A01C867AA98623 /* DCCJMessageCenter-dummy.m */; };
@@ -85,57 +85,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010818108F21FCE4182E026A7740FEB7 /* DCCJConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJConfig.modulemap; sourceTree = "<group>"; };
+		067CDCD32567D29AC7307ACF914B9EDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07627E0DDB566921460609338C65DCE8 /* DCCJNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07EBCDC63C833FD50CCF1CF9D14E51D7 /* DCCJNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJNetwork.xcconfig; sourceTree = "<group>"; };
+		0AEF09D77EDAB30E2C9C6AB26A8FC10E /* DCCJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJConfig-dummy.m"; sourceTree = "<group>"; };
 		0C03CA9FB08A280561B1CDF7ADD255DB /* Pods-DCCJMessageCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMessageCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		123E6DD26E2ADDC1A735ADE6D8DA92F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12AB2BF8B4D6459921A20F6A33C23469 /* Pods-DCCJMessageCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJMessageCenter_Example-dummy.m"; sourceTree = "<group>"; };
 		1C8AD1175DBF0052EA2737E154B890D1 /* DCCJMessageCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-umbrella.h"; sourceTree = "<group>"; };
 		20792AD924C3FB4A68C2FD5B063A3409 /* Pods-DCCJMessageCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJMessageCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2234F9B7CB1D823BE6FF534B84AB79AF /* DCCJNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJNetwork-dummy.m"; sourceTree = "<group>"; };
 		23710C85787A7034DC5F1358B4EE1773 /* Pods-DCCJMessageCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DCCJMessageCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2D0FD519B8B5F380708CF873FFFC46A4 /* Pods-DCCJMessageCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DCCJMessageCenter_Example.modulemap"; sourceTree = "<group>"; };
 		311BAD8E894EE63336840CFEF1FF969E /* Pods-DCCJMessageCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMessageCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		34D44DABE84C4105D712F1CB786674AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F4E9EAFF8D2D5B15C4F0D68F3309EB /* DCCJNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F48B874FC51ECE9CDB5DF95559E049 /* DataManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataManagerError.swift; path = DCCJConfig/Classes/DataManagerError/DataManagerError.swift; sourceTree = "<group>"; };
-		48C58EC88E9523653836968C85DE72B9 /* DCCJConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-umbrella.h"; sourceTree = "<group>"; };
-		529F1C57B2330439373C9DA06A90DF47 /* DCCJNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJNetwork.swift; path = DCCJNetwork/Classes/DCCJNetwork.swift; sourceTree = "<group>"; };
-		5DD70C871636F3240A13191F4FAAB2E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541BCA3C1840C54D8DF01BE9C4AE0D4C /* DataManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataManagerError.swift; path = DCCJConfig/Classes/DataManagerError/DataManagerError.swift; sourceTree = "<group>"; };
 		61C5F29A1AC9AD59A79C12FBA0C4A9BD /* Pods-DCCJMessageCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJMessageCenter_Tests-dummy.m"; sourceTree = "<group>"; };
 		65EB4E8DF319CA04BB6DB7916EE14BE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		695F1244773455D08B361E169CB6DE62 /* DCCJMessageCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-prefix.pch"; sourceTree = "<group>"; };
-		6B7428091611AE1220188B62C7FEE450 /* DCCJNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-prefix.pch"; sourceTree = "<group>"; };
-		6D02176614AB74D636B1C615755B5143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		905630AE5BC6E80441A6871FD84B5F05 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = DCCJConfig/Classes/Result/Result.swift; sourceTree = "<group>"; };
+		69B9DFFC0B6B967E94A6277112D1510B /* DCCJNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-umbrella.h"; sourceTree = "<group>"; };
+		7828BEEB6398FEF84BB61A29C6AA1A0A /* DCCJNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJNetwork.modulemap; sourceTree = "<group>"; };
+		78EB12F48AE82E85DCF81AC0304AE4A8 /* DCCJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJConfig.xcconfig; sourceTree = "<group>"; };
+		7C69E5651F787C16B70C78C9560B680C /* DCCJConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJConfig.modulemap; sourceTree = "<group>"; };
+		8464EC666421D986D7E8B814A9270F6C /* DCCJNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJNetwork.xcconfig; sourceTree = "<group>"; };
+		8CC15D704C3D2C183202DBEBF28EAAF0 /* DCCJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-prefix.pch"; sourceTree = "<group>"; };
 		90C1F08FFED1867D629C9164A00C2000 /* DCCJMessageCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJMessageCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		910D757BB80784B58DAF872A88E0F2CF /* Pods_DCCJMessageCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJMessageCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9584C39247340387E8BF8D6FFB61E736 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		983AA1C4CE848E6988FF3B80DDE52141 /* Pods-DCCJMessageCenter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DCCJMessageCenter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9917E421A571BFF923CF7240679972A3 /* DCCJNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJNetwork.swift; path = DCCJNetwork/Classes/DCCJNetwork.swift; sourceTree = "<group>"; };
 		9D96904F0EC3F3AFBE46A34733F1729E /* Pods-DCCJMessageCenter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DCCJMessageCenter_Tests.modulemap"; sourceTree = "<group>"; };
-		9DFDF843EAA1696FCC6BD6EE229EC829 /* DCCJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-prefix.pch"; sourceTree = "<group>"; };
 		A1665985FEB45A2017676D37F97264BF /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A396C1765DD73097BC36309D64BC74E2 /* DCCJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJConfig.xcconfig; sourceTree = "<group>"; };
+		A25590D83DB93D470A82F57FE56980E8 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = DCCJConfig/Classes/Result/Result.swift; sourceTree = "<group>"; };
 		A66939040DAF8231A51EF51240E8A52E /* Pods-DCCJMessageCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMessageCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A925A05DA0C131FD15817042DDAA4FF8 /* DCCJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJConfig-dummy.m"; sourceTree = "<group>"; };
 		AD712843A549D3E7FB4B11B367F61721 /* Pods-DCCJMessageCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DCCJMessageCenter_Example-umbrella.h"; sourceTree = "<group>"; };
 		ADD7D775911D1A9FF3710B26695B6741 /* Pods-DCCJMessageCenter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMessageCenter_Example-resources.sh"; sourceTree = "<group>"; };
+		B541BD09C2530E3F9B4476CF59808F50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B82683D09B3298EB838F6E40B1BAC31E /* DCCJMessageCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJMessageCenter.swift; path = DCCJMessageCenter/Classes/DCCJMessageCenter.swift; sourceTree = "<group>"; };
 		BAF62626D0306DA20DA33BE60B4581FA /* Pods_DCCJMessageCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJMessageCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC761CF6827E5E897B27815F166848B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D641F9983C54F1B92764B4C7EAF45182 /* DCCJNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJNetwork.modulemap; sourceTree = "<group>"; };
 		D6838199A2F48F09B6D120569C7F590C /* MessageCenterResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageCenterResponse.swift; path = DCCJMessageCenter/Classes/MessageCenterResponse.swift; sourceTree = "<group>"; };
 		D6EDEAFAF32E79233C2B3A96D5130220 /* Pods-DCCJMessageCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJMessageCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D956E5439B529FD7DB8A9F396F51F3D6 /* DCCJNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJNetwork-dummy.m"; sourceTree = "<group>"; };
 		DAE825019632400B686B817214513609 /* Pods-DCCJMessageCenter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DCCJMessageCenter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE535D9ABE62AAFF5C4771DE67C7663E /* DCCJMessageCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJMessageCenter.xcconfig; sourceTree = "<group>"; };
 		E4C27A3F15A1C7FF9CDB2FDF9514D428 /* DCCJMessageCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJMessageCenter.modulemap; sourceTree = "<group>"; };
-		E59F6E6B614B357144BA63B7DE68BF5D /* DCCJNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-umbrella.h"; sourceTree = "<group>"; };
 		E6A0B27D6BEF62C0C594F38E811F24A6 /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AB43A1A6D277DCE0C185A744A7E02B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85D360690EFAF337A5142A8884C8EAF /* DCCJMessageCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DCCJMessageCenter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E981DC2DA2096224F389D78970D11DA8 /* Pods-DCCJMessageCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMessageCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EF27B23D1CEC8288DA8873BDD955CC09 /* DCCJConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-umbrella.h"; sourceTree = "<group>"; };
+		F1A5744AAFFA2B49EB7BE2B3CB73E3D4 /* DCCJNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-prefix.pch"; sourceTree = "<group>"; };
 		F3D974776F203F512674EA8DE63ABD2D /* Pods-DCCJMessageCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMessageCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F524A1084E9830FE75A01C867AA98623 /* DCCJMessageCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJMessageCenter-dummy.m"; sourceTree = "<group>"; };
 		FBC500079F6CEE9E06D33A4534DAAC16 /* Pods-DCCJMessageCenter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMessageCenter_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -189,15 +189,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F1A7AD403554017CBF528AB3670D987 /* DCCJNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				529F1C57B2330439373C9DA06A90DF47 /* DCCJNetwork.swift */,
-				B7D1777D1C322DA35CD72EA6BD31CC6C /* Support Files */,
-			);
-			path = DCCJNetwork;
-			sourceTree = "<group>";
-		};
 		166B11B8CEA666A939A165470B90661A /* Pods-DCCJMessageCenter_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,9 +215,10 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		523B79BEA36014E1F1127F88C80093DD /* Result */ = {
+		425B768D450FE6E8A954B63ED542C1C9 /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				A25590D83DB93D470A82F57FE56980E8 /* Result.swift */,
 			);
 			name = Result;
 			sourceTree = "<group>";
@@ -249,13 +241,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7BD9A1C81127F2509A75ACF6326E8CC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB25421B05C076326F8A63E7D79DE060 /* DCCJConfig */,
+				FA207CECB6A9275B9595EAB7BAB18B7A /* DCCJNetwork */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2D3A6B02D3166DF432EC3DC0739ACBF7 /* Development Pods */,
 				5B0DAB056A4BACFA5C450B34294CAF2A /* Frameworks */,
-				A614E36CAD9367B64F92B1DD74021D7A /* Pods */,
+				7BD9A1C81127F2509A75ACF6326E8CC6 /* Pods */,
 				F37DDD663A5B76E17A5A9302972E01CF /* Products */,
 				DB04F9D37E1F60BB5D0E90A1FD6C0FCE /* Targets Support Files */,
 			);
@@ -271,38 +272,15 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		A614E36CAD9367B64F92B1DD74021D7A /* Pods */ = {
+		B8BB49E3D5FBE0A14F9A66BD68A79E83 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE8AABBAE8362C79543E11AFA648921E /* DCCJConfig */,
-				0F1A7AD403554017CBF528AB3670D987 /* DCCJNetwork */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B0E3F4F202AC607B391015B0FB571469 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				010818108F21FCE4182E026A7740FEB7 /* DCCJConfig.modulemap */,
-				A396C1765DD73097BC36309D64BC74E2 /* DCCJConfig.xcconfig */,
-				A925A05DA0C131FD15817042DDAA4FF8 /* DCCJConfig-dummy.m */,
-				9DFDF843EAA1696FCC6BD6EE229EC829 /* DCCJConfig-prefix.pch */,
-				48C58EC88E9523653836968C85DE72B9 /* DCCJConfig-umbrella.h */,
-				5DD70C871636F3240A13191F4FAAB2E9 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DCCJConfig";
-			sourceTree = "<group>";
-		};
-		B7D1777D1C322DA35CD72EA6BD31CC6C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D641F9983C54F1B92764B4C7EAF45182 /* DCCJNetwork.modulemap */,
-				07EBCDC63C833FD50CCF1CF9D14E51D7 /* DCCJNetwork.xcconfig */,
-				D956E5439B529FD7DB8A9F396F51F3D6 /* DCCJNetwork-dummy.m */,
-				6B7428091611AE1220188B62C7FEE450 /* DCCJNetwork-prefix.pch */,
-				E59F6E6B614B357144BA63B7DE68BF5D /* DCCJNetwork-umbrella.h */,
-				6D02176614AB74D636B1C615755B5143 /* Info.plist */,
+				7828BEEB6398FEF84BB61A29C6AA1A0A /* DCCJNetwork.modulemap */,
+				8464EC666421D986D7E8B814A9270F6C /* DCCJNetwork.xcconfig */,
+				2234F9B7CB1D823BE6FF534B84AB79AF /* DCCJNetwork-dummy.m */,
+				F1A5744AAFFA2B49EB7BE2B3CB73E3D4 /* DCCJNetwork-prefix.pch */,
+				69B9DFFC0B6B967E94A6277112D1510B /* DCCJNetwork-umbrella.h */,
+				B541BD09C2530E3F9B4476CF59808F50 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DCCJNetwork";
@@ -326,18 +304,6 @@
 			path = "Target Support Files/Pods-DCCJMessageCenter_Tests";
 			sourceTree = "<group>";
 		};
-		BE8AABBAE8362C79543E11AFA648921E /* DCCJConfig */ = {
-			isa = PBXGroup;
-			children = (
-				46F48B874FC51ECE9CDB5DF95559E049 /* DataManagerError.swift */,
-				905630AE5BC6E80441A6871FD84B5F05 /* Result.swift */,
-				F2E240A972A6171B0A755923C6549CAB /* DataManagerError */,
-				523B79BEA36014E1F1127F88C80093DD /* Result */,
-				B0E3F4F202AC607B391015B0FB571469 /* Support Files */,
-			);
-			path = DCCJConfig;
-			sourceTree = "<group>";
-		};
 		C9FD140BD7DE06436E2B0E93E6D04D89 /* DCCJMessageCenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -348,6 +314,24 @@
 			);
 			name = DCCJMessageCenter;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB25421B05C076326F8A63E7D79DE060 /* DCCJConfig */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CD9DC54D2717360AC4A210592A2CD /* DataManagerError */,
+				425B768D450FE6E8A954B63ED542C1C9 /* Result */,
+				EB9ECD9B22C1EB8CBD689B8EFA9B0018 /* Support Files */,
+			);
+			path = DCCJConfig;
+			sourceTree = "<group>";
+		};
+		CB3CD9DC54D2717360AC4A210592A2CD /* DataManagerError */ = {
+			isa = PBXGroup;
+			children = (
+				541BCA3C1840C54D8DF01BE9C4AE0D4C /* DataManagerError.swift */,
+			);
+			name = DataManagerError;
 			sourceTree = "<group>";
 		};
 		DB04F9D37E1F60BB5D0E90A1FD6C0FCE /* Targets Support Files */ = {
@@ -373,11 +357,18 @@
 			path = "Example/Pods/Target Support Files/DCCJMessageCenter";
 			sourceTree = "<group>";
 		};
-		F2E240A972A6171B0A755923C6549CAB /* DataManagerError */ = {
+		EB9ECD9B22C1EB8CBD689B8EFA9B0018 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C69E5651F787C16B70C78C9560B680C /* DCCJConfig.modulemap */,
+				78EB12F48AE82E85DCF81AC0304AE4A8 /* DCCJConfig.xcconfig */,
+				0AEF09D77EDAB30E2C9C6AB26A8FC10E /* DCCJConfig-dummy.m */,
+				8CC15D704C3D2C183202DBEBF28EAAF0 /* DCCJConfig-prefix.pch */,
+				EF27B23D1CEC8288DA8873BDD955CC09 /* DCCJConfig-umbrella.h */,
+				067CDCD32567D29AC7307ACF914B9EDF /* Info.plist */,
 			);
-			name = DataManagerError;
+			name = "Support Files";
+			path = "../Target Support Files/DCCJConfig";
 			sourceTree = "<group>";
 		};
 		F37DDD663A5B76E17A5A9302972E01CF /* Products */ = {
@@ -390,6 +381,15 @@
 				BAF62626D0306DA20DA33BE60B4581FA /* Pods_DCCJMessageCenter_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FA207CECB6A9275B9595EAB7BAB18B7A /* DCCJNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				9917E421A571BFF923CF7240679972A3 /* DCCJNetwork.swift */,
+				B8BB49E3D5FBE0A14F9A66BD68A79E83 /* Support Files */,
+			);
+			path = DCCJNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -656,7 +656,7 @@
 /* Begin XCBuildConfiguration section */
 		0AE62EEFA04EE9BC25A63D62049BBDC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A396C1765DD73097BC36309D64BC74E2 /* DCCJConfig.xcconfig */;
+			baseConfigurationReference = 78EB12F48AE82E85DCF81AC0304AE4A8 /* DCCJConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,7 +722,7 @@
 		};
 		1B9CC802457B723570A97B63FF908036 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A396C1765DD73097BC36309D64BC74E2 /* DCCJConfig.xcconfig */;
+			baseConfigurationReference = 78EB12F48AE82E85DCF81AC0304AE4A8 /* DCCJConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -754,7 +754,7 @@
 		};
 		1FA476E98C57F1B4680A0072B4A599E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07EBCDC63C833FD50CCF1CF9D14E51D7 /* DCCJNetwork.xcconfig */;
+			baseConfigurationReference = 8464EC666421D986D7E8B814A9270F6C /* DCCJNetwork.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1042,7 +1042,7 @@
 		};
 		BFD10E016B4781A3D37DB08CEE8F1D62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07EBCDC63C833FD50CCF1CF9D14E51D7 /* DCCJNetwork.xcconfig */;
+			baseConfigurationReference = 8464EC666421D986D7E8B814A9270F6C /* DCCJNetwork.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

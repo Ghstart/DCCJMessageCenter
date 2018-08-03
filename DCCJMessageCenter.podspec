@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJMessageCenter'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'A module mainly to handle message send and verify'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'DCCJNetwork', '~> 0.3.5'
+  s.dependency 'DCCJNetwork', '~> 0.3.6'
 end
