@@ -8,6 +8,7 @@
 
 import UIKit
 import DCCJMessageCenter
+import DCCJNetwork
 import DCCJConfig
 
 class ViewController: UIViewController {
@@ -16,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // 1.
-        DCCJMessageCenter().send(with: .sendMessage(type: .login, phone: "120")).data.observe { (result: Result<MessageCenterResponse>) in
+        DCCJMessageCenter(net: DCCJNetwork()).send(with: .sendMessage(type: .login, phone: "120")).data.observe { (result: Result<MessageCenterResponse>) in
             switch result {
             case .success(let value):
                 print(value)
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
     
         
         // 2.
-        DCCJMessageCenter().send(with: .verifyMessage(type: .thirdBind, phone: "110", code: "8899")).data.observe { (result: Result<MessageCenterResponse>) in
+        DCCJMessageCenter(net: DCCJNetwork()).send(with: .verifyMessage(type: .thirdBind, phone: "110", code: "8899")).data.observe { (result: Result<MessageCenterResponse>) in
             switch result {
             case .success(let value):
                 print(value)

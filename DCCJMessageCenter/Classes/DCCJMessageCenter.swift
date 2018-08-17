@@ -23,8 +23,8 @@ public enum MessageCenterRequest {
 }
 
 extension MessageCenterRequest: Request {
-    public var host: String {
-        return DCCJNetwork.shared.hostMaps[.production]!
+    public var host: NetworkEnvironment {
+        return .production
     }
     
     public var path: String {
@@ -52,10 +52,14 @@ extension MessageCenterRequest: Request {
 
 public class DCCJMessageCenter {
     
-    public init() {}
+    private let network: DCCJNetwork
+    
+    public init(net: DCCJNetwork) {
+        self.network = net
+    }
     
     public func send(with r: MessageCenterRequest) -> (data: Future<MessageCenterResponse>, task: URLSessionDataTask?) {
-        let (d, t) = DCCJNetwork.shared.request(with: r)
+        let (d, t) = self.network.request(with: r)
         
         let unboxdata: Future<MessageCenterResponse> = d.unboxed()
         
