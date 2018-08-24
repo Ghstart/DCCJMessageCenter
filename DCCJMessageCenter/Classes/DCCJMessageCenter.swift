@@ -65,4 +65,11 @@ public class DCCJMessageCenter {
         
         return (data: unboxdata, task: t)
     }
+    
+    public func show(on showOn: UIViewController, with phoneNumber: String) {
+        let sendMessageVC = SendMessageWindow(nibName: "SendMessageWindow", bundle: Bundle(for: DCCJMessageCenter.self))
+        sendMessageVC.phoneNumber = phoneNumber
+        sendMessageVC.modalPresentationStyle = .overCurrentContext
+        showOn.present(sendMessageVC, animated: true, completion: nil)
+    }
 }

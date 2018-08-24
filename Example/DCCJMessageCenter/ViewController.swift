@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = UIColor.orange
+        
+        /*
         // 1.
         DCCJMessageCenter(net: DCCJNetwork()).send(with: .sendMessage(type: .login, phone: "120")).data.observe { (result: Result<MessageCenterResponse>) in
             switch result {
@@ -36,9 +39,14 @@ class ViewController: UIViewController {
                 print(e)
             }
         }
+        */
 
     }
 
+    @IBAction func show(_ sender: UIButton) {
+        DCCJMessageCenter(net: DCCJNetwork()).show(on: self, with: "15397052013")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

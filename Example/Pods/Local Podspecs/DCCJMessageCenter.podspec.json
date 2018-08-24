@@ -1,6 +1,6 @@
 {
   "name": "DCCJMessageCenter",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "summary": "A module mainly to handle message send and verify",
   "description": "A module mainly to handle message send and verify Used by DCCJ",
   "homepage": "https://github.com/Ghstart/DCCJMessageCenter",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/Ghstart/DCCJMessageCenter.git",
-    "tag": "0.2.2"
+    "tag": "0.2.3"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "DCCJMessageCenter/Classes/**/*",
+  "resource_bundles": {
+    "DCCJMessageCenter": [
+      "DCCJMessageCenter/Classes/**/*.{png,jpeg,jpg,storyboard,xib}"
+    ]
+  },
   "dependencies": {
     "DCCJNetwork": [
       "~> 0.4.0"

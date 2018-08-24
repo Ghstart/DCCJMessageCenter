@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJMessageCenter'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'A module mainly to handle message send and verify'
 
 # This description is used to generate tags and improve search results.
@@ -35,6 +35,9 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'DCCJMessageCenter' => ['DCCJMessageCenter/Assets/*.png']
   # }
+  s.resource_bundles = {
+      'DCCJMessageCenter' => ['DCCJMessageCenter/Classes/**/*.{png,jpeg,jpg,storyboard,xib}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
