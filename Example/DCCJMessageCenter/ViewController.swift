@@ -44,7 +44,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func show(_ sender: UIButton) {
-        DCCJMessageCenter(net: DCCJNetwork()).show(on: self, with: "15397052013")
+        let message = DCCJMessageCenter(net: DCCJNetwork())
+        message.show(on: self, with: "15397052013") { (type, code) in
+            print(type)
+            print(code ?? "")
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {

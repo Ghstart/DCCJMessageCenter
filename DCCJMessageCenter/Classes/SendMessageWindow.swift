@@ -27,7 +27,8 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
     
     
     public var phoneNumber: String!
-    public var Clicked: ((_ actionType: SendMessageActionTypes) -> ()) = {_ in }
+    public typealias ClickedType = (_ actionType: SendMessageActionTypes, _ verifyCode: String?) -> ()
+    public var Clicked: ClickedType = {_,_  in }
     private var timer: DispatchSourceTimer?
     private var totalTime = 60
     
@@ -71,7 +72,7 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func closeMessageSendWindow(_ sender: Any) {
-        self.Clicked(.close)
+        self.Clicked(.close, nil)
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
             self.dismiss(animated: true, completion: nil)
         }
@@ -105,11 +106,15 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
     
     @IBAction func sendMessageTapped(_ sender: UIButton) {
         countingSeconds()
-        self.Clicked(.sendMessage)
+        self.Clicked(.sendMessage, nil)
     }
     
     @IBAction func sureTapped(_ sender: UIButton) {
-        self.Clicked(.sure)
+        if let t = self.codeTextField.text, t.count == 6 {
+            self.Clicked(.sure, t)
+        } else {
+            self.Clicked(.sure, nil)
+        }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
             self.dismiss(animated: true, completion: nil)
         }

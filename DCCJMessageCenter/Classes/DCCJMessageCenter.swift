@@ -66,8 +66,11 @@ public class DCCJMessageCenter {
         return (data: unboxdata, task: t)
     }
     
-    public func show(on showOn: UIViewController, with phoneNumber: String) {
+    public typealias ClickedType = (_ actionType: SendMessageActionTypes, _ verifyCode: String?) -> ()
+    
+    public func show(on showOn: UIViewController, with phoneNumber: String, then: @escaping ClickedType) {
         let sendMessageVC = SendMessageWindow(nibName: "SendMessageWindow", bundle: Bundle(for: DCCJMessageCenter.self))
+        sendMessageVC.Clicked = then
         sendMessageVC.phoneNumber = phoneNumber
         sendMessageVC.modalPresentationStyle = .overCurrentContext
         showOn.present(sendMessageVC, animated: true, completion: nil)
