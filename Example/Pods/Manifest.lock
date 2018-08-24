@@ -4,7 +4,7 @@ PODS:
     - DCCJConfig/Result (= 0.2.1)
   - DCCJConfig/DataManagerError (0.2.1)
   - DCCJConfig/Result (0.2.1)
-  - DCCJMessageCenter (0.2.4):
+  - DCCJMessageCenter (0.2.5):
     - DCCJNetwork (~> 0.4.0)
   - DCCJNetwork (0.4.0):
     - DCCJConfig (~> 0.2.1)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DCCJConfig: deeeec03ff35dd3f12912e2d127a0fc86666be04
-  DCCJMessageCenter: a48754ccfa54be2bd57413ec475ffedbf67aba35
+  DCCJMessageCenter: 56fdebca5291252ce0b3378485b5be37fad37719
   DCCJNetwork: 7d0ffbdc6e71ec9f43acf0fb227777e1cd6d9b80
   SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
 

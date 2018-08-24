@@ -73,6 +73,6 @@ public class DCCJMessageCenter {
         sendMessageVC.Clicked = then
         sendMessageVC.phoneNumber = phoneNumber
         sendMessageVC.modalPresentationStyle = .overCurrentContext
-        showOn.present(sendMessageVC, animated: true, completion: nil)
+        showOn.present(sendMessageVC, animated: false, completion: nil)
     }
 }

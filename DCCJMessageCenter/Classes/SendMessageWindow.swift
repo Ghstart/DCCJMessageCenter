@@ -34,6 +34,8 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.4)
 
         if phoneNumber.count == 11 { self.hideMiddleContent() }
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
@@ -74,7 +76,7 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
     @IBAction func closeMessageSendWindow(_ sender: Any) {
         self.Clicked(.close, nil)
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-            self.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: false, completion: nil)
         }
     }
 
@@ -116,7 +118,7 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
             self.Clicked(.sure, nil)
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-            self.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: false, completion: nil)
         }
     }
 }
