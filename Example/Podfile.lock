@@ -1,13 +1,13 @@
 PODS:
-  - DCCJConfig (0.2.1):
-    - DCCJConfig/DataManagerError (= 0.2.1)
-    - DCCJConfig/Result (= 0.2.1)
-  - DCCJConfig/DataManagerError (0.2.1)
-  - DCCJConfig/Result (0.2.1)
-  - DCCJMessageCenter (0.2.5):
-    - DCCJNetwork (~> 0.4.0)
-  - DCCJNetwork (0.4.0):
-    - DCCJConfig (~> 0.2.1)
+  - DCCJConfig (0.2.3):
+    - DCCJConfig/DataManagerError (= 0.2.3)
+    - DCCJConfig/Result (= 0.2.3)
+  - DCCJConfig/DataManagerError (0.2.3)
+  - DCCJConfig/Result (0.2.3)
+  - DCCJMessageCenter (0.2.6):
+    - DCCJNetwork (~> 0.4.1)
+  - DCCJNetwork (0.4.1):
+    - DCCJConfig (~> 0.2.3)
     - SwiftyBeaver
   - SwiftyBeaver (1.6.0)
 
@@ -25,9 +25,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJConfig: deeeec03ff35dd3f12912e2d127a0fc86666be04
-  DCCJMessageCenter: 56fdebca5291252ce0b3378485b5be37fad37719
-  DCCJNetwork: 7d0ffbdc6e71ec9f43acf0fb227777e1cd6d9b80
+  DCCJConfig: dca67365fabf38b598c321627bc87ece2ed097c8
+  DCCJMessageCenter: d57ee86083bf9ee40c073690a80d73a467a99c70
+  DCCJNetwork: 247ce77f46efb0d21ea864bc1166a076aab64382
   SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
 
 PODFILE CHECKSUM: 7631f935465f734415e3d2ab5302f82146176095
