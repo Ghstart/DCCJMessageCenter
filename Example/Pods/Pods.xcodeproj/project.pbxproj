@@ -141,17 +141,17 @@
 		123E6DD26E2ADDC1A735ADE6D8DA92F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12AB2BF8B4D6459921A20F6A33C23469 /* Pods-DCCJMessageCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJMessageCenter_Example-dummy.m"; sourceTree = "<group>"; };
 		131D67BC7C5A8AB36FA02C8BBE553C0F /* DCCJNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJNetwork-dummy.m"; sourceTree = "<group>"; };
-		16DCD157664E4A5BB635CDA841C50408 /* DCCJMessageCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJMessageCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DCD157664E4A5BB635CDA841C50408 /* DCCJMessageCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DCCJMessageCenter.framework; path = DCCJMessageCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20792AD924C3FB4A68C2FD5B063A3409 /* Pods-DCCJMessageCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJMessageCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2369733F9B410BC468E5427CD8A4B17F /* DCCJMessageCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJMessageCenter.swift; path = DCCJMessageCenter/Classes/DCCJMessageCenter.swift; sourceTree = "<group>"; };
 		23710C85787A7034DC5F1358B4EE1773 /* Pods-DCCJMessageCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DCCJMessageCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2D0FD519B8B5F380708CF873FFFC46A4 /* Pods-DCCJMessageCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DCCJMessageCenter_Example.modulemap"; sourceTree = "<group>"; };
 		2DDE8F5BC87482F390A68134753C1455 /* DCCJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJConfig-dummy.m"; sourceTree = "<group>"; };
-		2F54C3CD95D3D1D7999DCA067852FC45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2F54C3CD95D3D1D7999DCA067852FC45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		311BAD8E894EE63336840CFEF1FF969E /* Pods-DCCJMessageCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMessageCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		33A4127A9A434B99B55E291E03F0D7D9 /* DCCJConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJConfig.modulemap; sourceTree = "<group>"; };
 		34D44DABE84C4105D712F1CB786674AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C51456F4DFF4EF7A6775BC262DB2A03 /* DCCJNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C51456F4DFF4EF7A6775BC262DB2A03 /* DCCJNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DCCJNetwork.framework; path = DCCJNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D0F8F8FD2E760884ED6C6F9CF84B73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42542171331EBBE0747110B211E33051 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
 		42801516E2DD259792585CD7C53ECAF4 /* big_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "big_close@2x.png"; sourceTree = "<group>"; };
@@ -163,23 +163,23 @@
 		535D9ABD139EBB78807098AE69CF2CA9 /* SendMessageWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SendMessageWindow.swift; path = DCCJMessageCenter/Classes/SendMessageWindow.swift; sourceTree = "<group>"; };
 		61C5F29A1AC9AD59A79C12FBA0C4A9BD /* Pods-DCCJMessageCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJMessageCenter_Tests-dummy.m"; sourceTree = "<group>"; };
 		62E92A1C11DA76F112A3E645D1450307 /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
-		632C0DEA26107011113F2C3CAA6164F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		632C0DEA26107011113F2C3CAA6164F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		63ACA634A2E32A1FEE57A31D550CEA87 /* DCCJMessageCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-umbrella.h"; sourceTree = "<group>"; };
 		66BE87CE10870650A5E54585E18DCF4F /* MessageCenterResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageCenterResponse.swift; path = DCCJMessageCenter/Classes/MessageCenterResponse.swift; sourceTree = "<group>"; };
 		69BF45B90E864A54CBB48700B9438B60 /* DCCJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-prefix.pch"; sourceTree = "<group>"; };
-		69C757485C7CC524B3444342C3FE2FD5 /* Pods_DCCJMessageCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJMessageCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED4F7E5676E5407FD09A718FF149D9C /* DCCJMessageCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DCCJMessageCenter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69C757485C7CC524B3444342C3FE2FD5 /* Pods_DCCJMessageCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DCCJMessageCenter_Tests.framework; path = "Pods-DCCJMessageCenter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED4F7E5676E5407FD09A718FF149D9C /* DCCJMessageCenter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DCCJMessageCenter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		70EFC45E542FEB2A2844B68DAB53F596 /* DCCJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJConfig.xcconfig; sourceTree = "<group>"; };
 		7B79E19A16B663AC311AE247D2250A41 /* DCCJNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJNetwork.xcconfig; sourceTree = "<group>"; };
 		824A5C170BF89DFE12D67F123E741D8D /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
 		86A4E825858E026D747CA33FDF8EE090 /* DCCJConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-umbrella.h"; sourceTree = "<group>"; };
-		86BD87BA8927FF742E17950F02FB4B2E /* DCCJMessageCenter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCCJMessageCenter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BD87BA8927FF742E17950F02FB4B2E /* DCCJMessageCenter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DCCJMessageCenter.bundle; path = "DCCJMessageCenter-DCCJMessageCenter.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88053EEB4C5C1276290DAF328BF99A96 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
 		893CEAFE77A9FCBB121AE94655BB4A9E /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
 		900A1680D8BD2D8682DCF7BF1552C995 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9154373268EDFE6A66A4EDA78F59AD43 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = DCCJConfig/Classes/Result/Result.swift; sourceTree = "<group>"; };
 		929EAFDBF5E00A9BB9624BE33A14D37D /* big_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "big_close@3x.png"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983AA1C4CE848E6988FF3B80DDE52141 /* Pods-DCCJMessageCenter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DCCJMessageCenter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B6C8E7926094D87DA938904B64B4725 /* DCCJNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-umbrella.h"; sourceTree = "<group>"; };
 		9BD369C371282C082D3E4642512B8E8D /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
@@ -190,13 +190,13 @@
 		AC56509094D93918C095D3A7F1B70A26 /* DCCJNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJNetwork.modulemap; sourceTree = "<group>"; };
 		AD712843A549D3E7FB4B11B367F61721 /* Pods-DCCJMessageCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DCCJMessageCenter_Example-umbrella.h"; sourceTree = "<group>"; };
 		ADD7D775911D1A9FF3710B26695B6741 /* Pods-DCCJMessageCenter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMessageCenter_Example-resources.sh"; sourceTree = "<group>"; };
-		AEA0C572398FDB77ACAC78121653C068 /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA0C572398FDB77ACAC78121653C068 /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DCCJConfig.framework; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B159E1CD6308BF63A8BE8B4D86488874 /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
 		B1F237C5B0F3B46AA6F17D14A13B2B8E /* DCCJMessageCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJMessageCenter.modulemap; sourceTree = "<group>"; };
 		B35D008D340478FC68716BE6DACB8D99 /* SendMessageWindow.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SendMessageWindow.xib; sourceTree = "<group>"; };
 		B54F859A3255D7A481AF7437DD59FE4B /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
 		B67F8F0841FBB915886DED6BD9E164D9 /* DCCJNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-prefix.pch"; sourceTree = "<group>"; };
-		B71D0C3672D4702F34A5BBF4F3792D93 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71D0C3672D4702F34A5BBF4F3792D93 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF025D61F3D6F5BCAAFCCE5D4D0B0254 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
 		C3416B0EA30F8B74522A343AEEDF5F1F /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
 		C6072764C8F1E186C15FFE5937C8262D /* DCCJMessageCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-prefix.pch"; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 		D6EDEAFAF32E79233C2B3A96D5130220 /* Pods-DCCJMessageCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJMessageCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAE825019632400B686B817214513609 /* Pods-DCCJMessageCenter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DCCJMessageCenter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0CD41D1A186574CBA8B17DE1882BBF0 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
-		E87C1E841F764F5BCC683BF71DA1FBCA /* Pods_DCCJMessageCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJMessageCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87C1E841F764F5BCC683BF71DA1FBCA /* Pods_DCCJMessageCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DCCJMessageCenter_Example.framework; path = "Pods-DCCJMessageCenter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E981DC2DA2096224F389D78970D11DA8 /* Pods-DCCJMessageCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMessageCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F22CAAAA5BC9A1C0C78EF79CB761D112 /* DCCJMessageCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJMessageCenter.xcconfig; sourceTree = "<group>"; };
 		F3D974776F203F512674EA8DE63ABD2D /* Pods-DCCJMessageCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMessageCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -331,6 +331,7 @@
 				E9F05CAA0605C3D80E7442B99F09DB1C /* Result */,
 				DED6F04A722CE870D109C03F1C368308 /* Support Files */,
 			);
+			name = DCCJConfig;
 			path = DCCJConfig;
 			sourceTree = "<group>";
 		};
@@ -418,6 +419,7 @@
 				893CEAFE77A9FCBB121AE94655BB4A9E /* SwiftyBeaver.swift */,
 				2C87C694B300BDE8E37324D1D0CDC292 /* Support Files */,
 			);
+			name = SwiftyBeaver;
 			path = SwiftyBeaver;
 			sourceTree = "<group>";
 		};
@@ -490,6 +492,7 @@
 				CE6FDCE555941F99F3778080DBB911F4 /* DCCJNetwork.swift */,
 				B6A77743472115AE2F4269F8C7ED8864 /* Support Files */,
 			);
+			name = DCCJNetwork;
 			path = DCCJNetwork;
 			sourceTree = "<group>";
 		};
@@ -734,7 +737,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1392,7 +1395,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

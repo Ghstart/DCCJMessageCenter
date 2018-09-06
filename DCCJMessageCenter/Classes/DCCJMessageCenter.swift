@@ -53,6 +53,7 @@ extension MessageCenterRequest: Request {
 public class DCCJMessageCenter {
     
     private let network: DCCJNetwork
+    public var sendMessageWindow: SendMessageWindow?
     
     public init(net: DCCJNetwork) {
         self.network = net
@@ -69,10 +70,10 @@ public class DCCJMessageCenter {
     public typealias ClickedType = (_ actionType: SendMessageActionTypes, _ verifyCode: String?) -> ()
     
     public func show(on showOn: UIViewController, with phoneNumber: String, then: @escaping ClickedType) {
-        let sendMessageVC = SendMessageWindow(nibName: "SendMessageWindow", bundle: Bundle(for: DCCJMessageCenter.self))
-        sendMessageVC.Clicked = then
-        sendMessageVC.phoneNumber = phoneNumber
-        sendMessageVC.modalPresentationStyle = .overCurrentContext
-        showOn.present(sendMessageVC, animated: false, completion: nil)
+        self.sendMessageWindow = SendMessageWindow(nibName: "SendMessageWindow", bundle: Bundle(for: DCCJMessageCenter.self))
+        self.sendMessageWindow?.Clicked = then
+        self.sendMessageWindow?.phoneNumber = phoneNumber
+        self.sendMessageWindow?.modalPresentationStyle = .overCurrentContext
+        showOn.present(self.sendMessageWindow!, animated: false, completion: nil)
     }
 }

@@ -13,7 +13,7 @@ public enum SendMessageActionTypes {
     case sure
 }
 
-class SendMessageWindow: UIViewController, UITextFieldDelegate {
+public class SendMessageWindow: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var height: NSLayoutConstraint!
     @IBOutlet weak var space: NSLayoutConstraint!
@@ -32,7 +32,7 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
     private var timer: DispatchSourceTimer?
     private var totalTime = 60
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.4)
@@ -46,7 +46,7 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
         self.view.layoutIfNeeded()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.codeTextField.becomeFirstResponder()
         self.countingSeconds()
@@ -116,9 +116,6 @@ class SendMessageWindow: UIViewController, UITextFieldDelegate {
             self.Clicked(.sure, t)
         } else {
             self.Clicked(.sure, nil)
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-            self.dismiss(animated: false, completion: nil)
         }
     }
 }
