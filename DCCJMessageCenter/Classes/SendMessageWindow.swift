@@ -165,7 +165,7 @@ private extension SendMessageWindow {
         let bottomSpace = (UIScreen.main.bounds.size.height - height.constant)/2.0
         
         if keyboardHeight > bottomSpace {
-            self.centerY.constant = self.centerY.constant - (keyboardHeight - bottomSpace)
+            self.centerY.constant = self.centerY.constant - (keyboardHeight - bottomSpace) - 15
             self.view.layoutIfNeeded()
         }
     }

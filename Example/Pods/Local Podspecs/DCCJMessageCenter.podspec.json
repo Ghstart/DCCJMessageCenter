@@ -1,6 +1,6 @@
 {
   "name": "DCCJMessageCenter",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "summary": "A module mainly to handle message send and verify",
   "description": "A module mainly to handle message send and verify Used by DCCJ",
   "homepage": "https://github.com/Ghstart/DCCJMessageCenter",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Ghstart/DCCJMessageCenter.git",
-    "tag": "0.2.7"
+    "tag": "0.2.8"
   },
   "platforms": {
     "ios": "9.0"
