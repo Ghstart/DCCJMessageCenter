@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -51,7 +50,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="188****9999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dkv-nr-iMh">
-                            <rect key="frame" x="97.5" y="78" width="150.5" height="40"/>
+                            <rect key="frame" x="97.5" y="73" width="150.5" height="40"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="PQ5-cZ-rX4"/>
                             </constraints>
@@ -60,7 +59,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtU-cs-h3k">
-                            <rect key="frame" x="216.5" y="139" width="113.5" height="50"/>
+                            <rect key="frame" x="216.5" y="134" width="113.5" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="NqQ-Uz-cjy"/>
                             </constraints>
@@ -74,7 +73,7 @@
                                     <integer key="value" value="3"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="color" keyPath="ayer.borderColor">
-                                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="value" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                     <integer key="value" value="1"/>
@@ -85,14 +84,14 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU9-ik-xEn">
-                            <rect key="frame" x="314" y="13" width="16" height="22"/>
+                            <rect key="frame" x="309" y="13" width="21" height="22"/>
                             <state key="normal" image="big_close"/>
                             <connections>
                                 <action selector="closeMessageSendWindow:" destination="-1" eventType="touchUpInside" id="RJi-Uz-LkR"/>
                             </connections>
                         </button>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gvv-df-fRz">
-                            <rect key="frame" x="15" y="139" width="188.5" height="50"/>
+                            <rect key="frame" x="15" y="134" width="188.5" height="50"/>
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="H0A-gm-nTD"/>
@@ -118,13 +117,13 @@
                             </connections>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入验证码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BX-NG-bhx">
-                            <rect key="frame" x="26" y="153" width="122.5" height="24"/>
+                            <rect key="frame" x="30" y="148" width="122.5" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnJ-A1-DQ5">
-                            <rect key="frame" x="15" y="216" width="315" height="50"/>
+                            <rect key="frame" x="15" y="211" width="315" height="50"/>
                             <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                             <accessibility key="accessibilityConfiguration">
                                 <accessibilityTraits key="traits" button="YES" notEnabled="YES"/>
@@ -160,11 +159,11 @@
                         <constraint firstItem="Gvv-df-fRz" firstAttribute="leading" secondItem="d0A-2G-eUW" secondAttribute="leading" constant="15" id="MPy-7E-2I9"/>
                         <constraint firstItem="GtU-cs-h3k" firstAttribute="centerY" secondItem="Gvv-df-fRz" secondAttribute="centerY" id="PnL-UO-5O1"/>
                         <constraint firstItem="GtU-cs-h3k" firstAttribute="width" secondItem="Gvv-df-fRz" secondAttribute="width" multiplier="104:173" id="VN8-qz-f55"/>
-                        <constraint firstItem="Dkv-nr-iMh" firstAttribute="top" secondItem="Xsv-2U-aFW" secondAttribute="bottom" constant="5" id="Xjj-sd-FpV"/>
+                        <constraint firstItem="Dkv-nr-iMh" firstAttribute="top" secondItem="Xsv-2U-aFW" secondAttribute="bottom" id="Xjj-sd-FpV"/>
                         <constraint firstItem="Gvv-df-fRz" firstAttribute="top" secondItem="Dkv-nr-iMh" secondAttribute="bottom" constant="21" id="ZKX-6Z-JNJ"/>
                         <constraint firstItem="GtU-cs-h3k" firstAttribute="leading" secondItem="Gvv-df-fRz" secondAttribute="trailing" constant="13" id="d35-Bg-iNM"/>
                         <constraint firstItem="jg5-rr-UC4" firstAttribute="centerX" secondItem="d0A-2G-eUW" secondAttribute="centerX" id="drd-Vo-fs2"/>
-                        <constraint firstItem="5BX-NG-bhx" firstAttribute="leading" secondItem="d0A-2G-eUW" secondAttribute="leading" constant="26" id="h2L-fO-BHc"/>
+                        <constraint firstItem="5BX-NG-bhx" firstAttribute="leading" secondItem="d0A-2G-eUW" secondAttribute="leading" constant="30" id="h2L-fO-BHc"/>
                         <constraint firstAttribute="trailing" secondItem="cU9-ik-xEn" secondAttribute="trailing" constant="15" id="l0K-dB-CvZ"/>
                         <constraint firstItem="5BX-NG-bhx" firstAttribute="top" secondItem="Dkv-nr-iMh" secondAttribute="bottom" constant="35" id="qmd-S3-LW3"/>
                         <constraint firstItem="RnJ-A1-DQ5" firstAttribute="leading" secondItem="d0A-2G-eUW" secondAttribute="leading" constant="15" id="xYg-sg-dbe"/>
@@ -185,10 +184,10 @@
                 <constraint firstItem="d0A-2G-eUW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YfY-UB-EaD"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="136" y="-184"/>
+            <point key="canvasLocation" x="-236" y="-225"/>
         </view>
     </objects>
     <resources>
-        <image name="big_close" width="16" height="16"/>
+        <image name="big_close" width="21" height="22"/>
     </resources>
 </document>

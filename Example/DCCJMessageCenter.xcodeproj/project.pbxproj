@@ -287,7 +287,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DCCJMessageCenter_Example/Pods-DCCJMessageCenter_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DCCJMessageCenter_Example/Pods-DCCJMessageCenter_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DCCJConfig/DCCJConfig.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJMessageCenter/DCCJMessageCenter.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJNetwork/DCCJNetwork.framework",
@@ -302,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCCJMessageCenter_Example/Pods-DCCJMessageCenter_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DCCJMessageCenter_Example/Pods-DCCJMessageCenter_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E94457621680EEDA6F628423 /* [CP] Check Pods Manifest.lock */ = {
